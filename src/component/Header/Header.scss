@@ -1,0 +1,99 @@
+.header-bg{
+    background-color: #00796B;  
+    position: sticky;
+    height: 10%;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4); 
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between  ;
+    padding:5px 25px;
+    @media screen and (max-width:480px) {
+        padding:5px 15px;
+      }
+
+    p{
+        color:white;
+    }
+    img{
+        height:50px;
+        width:110px;
+    }
+
+    .nav-items-div{
+        display:flex;
+        flex-direction:row;
+        gap:30px;
+        
+        a{
+            color:white;
+            font-family: "Poppins",sans-serif;
+            cursor: pointer;
+        }
+    }
+    .logout-btn{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        padding:10px;
+        background-color: #FFB200;
+        color:black;
+        transition: 0.2s ease-in;
+        border:none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 5px;
+        &:hover{
+            box-shadow:0px 0px  10px black ;
+            transform: scale(1.1);
+        }
+
+        @media screen and (min-width:481px) {
+            display: none;
+        }
+
+        
+    }
+    .logout-div{
+        display: flex;
+        flex-direction: row;
+        position:relative;
+        align-items:center;
+
+        button{
+            padding:5px 30px 5px 20px;
+            font-family: "Poppins",sans-serif;
+            font-size:15px;
+            border:none;
+            cursor: pointer;
+            outline: none;
+            border-radius: 5px;
+            background-color: #FFB200;
+            color:black;
+            transition: 0.2s ease-in;
+
+            &:hover{
+                box-shadow:0px 0px  10px black ;
+                transform: scale(1.1);
+            }
+            &:hover+.icon{
+                transform: scale(1.1);
+            }
+
+            @media screen and (max-width:480px) {
+                display:none;
+              }
+        }
+        .icon{
+            position: absolute;
+            right:8px;
+            color:black;
+            transition: 0.2s ease-in;
+            @media screen and (max-width:480px) {
+                display:none;
+              }
+
+        }
+    }
+}

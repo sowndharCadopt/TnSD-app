@@ -1,0 +1,122 @@
+[
+  {
+    "id": 0,
+    "title": "Tech Meetup",
+    "start": "2025-02-22T10:00:00",
+    "end": "2025-02-22T12:00:00",
+    "District": "Chennai",
+    "Zone": "North Zone",
+    "University": "Anna University",
+    "College Type": "Public",
+    "College Name": "College of Engineering, Guindy",
+    "Course Name": "Computer Science"
+  },
+  {
+    "id": 1,
+    "title": "AI Conference",
+    "start": "2025-02-23T14:00:00",
+    "end": "2025-02-23T16:00:00",
+    "District": "Coimbatore",
+    "Zone": "West Zone",
+    "University": "Bharathiar University",
+    "College Type": "Private",
+    "College Name": "PSG College of Technology",
+    "Course Name": "Artificial Intelligence"
+  },
+  {
+    "id": 2,
+    "title": "Startup Workshop",
+    "start": "2025-02-24T09:00:00",
+    "end": "2025-02-24T11:00:00",
+    "District": "Madurai",
+    "Zone": "South Zone",
+    "University": "Madurai Kamaraj University",
+    "College Type": "Public",
+    "College Name": "Thiagarajar College of Engineering",
+    "Course Name": "Entrepreneurship"
+  },
+  {
+    "id": 3,
+    "title": "Data Science Seminar",
+    "start": "2025-02-25T13:00:00",
+    "end": "2025-02-25T15:00:00",
+    "District": "Tiruchirappalli",
+    "Zone": "Central Zone",
+    "University": "National Institute of Technology, Trichy",
+    "College Type": "Public",
+    "College Name": "NIT Trichy",
+    "Course Name": "Data Science"
+  },
+  {
+    "id": 4,
+    "title": "Cybersecurity Summit",
+    "start": "2025-03-01T11:00:00",
+    "end": "2025-03-01T13:00:00",
+    "District": "Salem",
+    "Zone": "North Zone",
+    "University": "Periyar University",
+    "College Type": "Public",
+    "College Name": "Government College of Engineering, Salem",
+    "Course Name": "Cybersecurity"
+  },
+  {
+    "id": 5,
+    "title": "Cloud Computing Workshop",
+    "start": "2025-03-02T14:00:00",
+    "end": "2025-03-02T16:00:00",
+    "District": "Vellore",
+    "Zone": "North Zone",
+    "University": "VIT University",
+    "College Type": "Private",
+    "College Name": "VIT Vellore",
+    "Course Name": "Cloud Computing"
+  },
+  {
+    "id": 6,
+    "title": "Blockchain Seminar",
+    "start": "2025-03-03T10:00:00",
+    "end": "2025-03-03T12:00:00",
+    "District": "Erode",
+    "Zone": "West Zone",
+    "University": "Bharathiar University",
+    "College Type": "Public",
+    "College Name": "Bannari Amman Institute of Technology",
+    "Course Name": "Blockchain Technology"
+  },
+  {
+    "id": 7,
+    "title": "IoT Innovation Fair",
+    "start": "2025-03-04T09:00:00",
+    "end": "2025-03-04T11:00:00",
+    "District": "Tirunelveli",
+    "Zone": "South Zone",
+    "University": "Manonmaniam Sundaranar University",
+    "College Type": "Public",
+    "College Name": "Government College of Engineering, Tirunelveli",
+    "Course Name": "Internet of Things"
+  },
+  {
+    "id": 8,
+    "title": "Green Energy Symposium",
+    "start": "2025-03-05T13:00:00",
+    "end": "2025-03-05T15:00:00",
+    "District": "Thoothukudi",
+    "Zone": "South Zone",
+    "University": "Anna University",
+    "College Type": "Public",
+    "College Name": "Dr. Sivanthi Aditanar College of Engineering",
+    "Course Name": "Renewable Energy"
+  },
+  {
+    "id": 9,
+    "title": "Big Data Conference",
+    "start": "2025-03-06T11:00:00",
+    "end": "2025-03-06T13:00:00",
+    "District": "Kanyakumari",
+    "Zone": "South Zone",
+    "University": "Manonmaniam Sundaranar University",
+    "College Type": "Private",
+    "College Name": "Noorul Islam University",
+    "Course Name": "Big Data Analytics"
+  }
+]

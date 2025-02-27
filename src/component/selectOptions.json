@@ -1,0 +1,239 @@
+[
+    {
+      "District": "Chennai",
+      "Zones": [
+        {
+          "Zone": "North Zone",
+          "Universities": [
+            {
+              "University": "Anna University",
+              "College Types": [
+                {
+                  "College Type": "Public",
+                  "Colleges": [
+                    {
+                      "College Name": "College of Engineering, Guindy",
+                      "Courses": ["Computer Science", "Mechanical Engineering", "Electronics"]
+                    },
+                    {
+                      "College Name": "Madras Institute of Technology",
+                      "Courses": ["Aeronautical Engineering", "Automobile Engineering"]
+                    }
+                  ]
+                },
+                {
+                  "College Type": "Private",
+                  "Colleges": [
+                    {
+                      "College Name": "SSN College of Engineering",
+                      "Courses": ["Information Technology", "Biomedical Engineering"]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Zone": "South Zone",
+          "Universities": [
+            {
+              "University": "SRM Institute of Science and Technology",
+              "College Types": [
+                {
+                  "College Type": "Private",
+                  "Colleges": [
+                    {
+                      "College Name": "SRM Engineering College",
+                      "Courses": ["Civil Engineering", "Artificial Intelligence"]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "District": "Coimbatore",
+      "Zones": [
+        {
+          "Zone": "West Zone",
+          "Universities": [
+            {
+              "University": "Bharathiar University",
+              "College Types": [
+                {
+                  "College Type": "Public",
+                  "Colleges": [
+                    {
+                      "College Name": "Government College of Technology",
+                      "Courses": ["Data Science", "Electrical Engineering"]
+                    }
+                  ]
+                },
+                {
+                  "College Type": "Private",
+                  "Colleges": [
+                    {
+                      "College Name": "PSG College of Technology",
+                      "Courses": ["Artificial Intelligence", "Machine Learning"]
+                    },
+                    {
+                      "College Name": "Coimbatore Institute of Technology",
+                      "Courses": ["Civil Engineering", "Robotics"]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "District": "Madurai",
+      "Zones": [
+        {
+          "Zone": "South Zone",
+          "Universities": [
+            {
+              "University": "Madurai Kamaraj University",
+              "College Types": [
+                {
+                  "College Type": "Public",
+                  "Colleges": [
+                    {
+                      "College Name": "Thiagarajar College of Engineering",
+                      "Courses": ["Entrepreneurship", "Information Technology"]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "District": "Tiruchirappalli",
+      "Zones": [
+        {
+          "Zone": "Central Zone",
+          "Universities": [
+            {
+              "University": "National Institute of Technology, Trichy",
+              "College Types": [
+                {
+                  "College Type": "Public",
+                  "Colleges": [
+                    {
+                      "College Name": "NIT Trichy",
+                      "Courses": ["Data Science", "Software Engineering"]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "District": "Salem",
+      "Zones": [
+        {
+          "Zone": "North Zone",
+          "Universities": [
+            {
+              "University": "Periyar University",
+              "College Types": [
+                {
+                  "College Type": "Public",
+                  "Colleges": [
+                    {
+                      "College Name": "Government College of Engineering, Salem",
+                      "Courses": ["Cybersecurity", "Cloud Computing"]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "District": "Vellore",
+      "Zones": [
+        {
+          "Zone": "North Zone",
+          "Universities": [
+            {
+              "University": "VIT University",
+              "College Types": [
+                {
+                  "College Type": "Private",
+                  "Colleges": [
+                    {
+                      "College Name": "VIT Vellore",
+                      "Courses": ["Cloud Computing", "Big Data Analytics"]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "District": "Tirunelveli",
+      "Zones": [
+        {
+          "Zone": "South Zone",
+          "Universities": [
+            {
+              "University": "Manonmaniam Sundaranar University",
+              "College Types": [
+                {
+                  "College Type": "Public",
+                  "Colleges": [
+                    {
+                      "College Name": "Government College of Engineering, Tirunelveli",
+                      "Courses": ["Internet of Things", "Embedded Systems"]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "District": "Thoothukudi",
+      "Zones": [
+        {
+          "Zone": "South Zone",
+          "Universities": [
+            {
+              "University": "Anna University",
+              "College Types": [
+                {
+                  "College Type": "Public",
+                  "Colleges": [
+                    {
+                      "College Name": "Dr. Sivanthi Aditanar College of Engineering",
+                      "Courses": ["Renewable Energy", "Environmental Science"]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]

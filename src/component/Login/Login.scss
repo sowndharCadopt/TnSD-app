@@ -1,0 +1,214 @@
+.login-outer-bg{
+    display: flex;
+    flex-direction: column;
+
+
+    .login-bg{
+        display:flex;
+        flex-direction: row;
+        background-color: #EFDCAB;
+        min-height:100vh;overflow-y: auto;
+        @media screen and (max-width:767px) {
+            flex-direction: column;
+            
+            
+
+        }
+        
+        .app-logo-bg{
+            display:flex;
+            width:50%;
+            gap:15%;
+            flex-direction:column;
+            align-items: center;
+            justify-content: center;
+            @media screen and (max-width:767px) {
+                width:100%;
+                margin-bottom:10%;
+                
+            }
+            
+            .app-logo{
+                height:150px;
+                width:250px;
+                @media screen and (max-width:767px) {
+                    height:120px;
+                    width:200px;
+                    
+                }
+
+            }
+            
+        }
+        
+        .login-inner-bg{
+            background-color:transparent;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width:50%;
+            @media screen and (max-width:767px) {
+                width:100%;
+                margin-top:4%;
+                
+            }
+            
+
+            .login-div{
+                background-color:#F7F7F7;
+                border-radius:10px;
+                min-width:60%;
+                padding:20px 40px;
+                gap:20px;
+                display: flex;
+                flex-direction: column;
+                box-shadow: 0px 0px 20px#3F4F44;
+                @media screen and (max-width:767px) {
+                    padding:15px 25px;
+                    gap:10px;
+                    
+                }
+                
+                h1{
+                    color:#3F4F44;
+                    text-align: center;
+                }
+                form{
+                    display: flex;
+                    flex-direction:column;
+                    gap:20px;
+                    padding:20px;
+                    font-family: "Poppins",sans-serif;
+                    @media screen and (max-width:767px) {
+                        gap:15px;
+                        
+                    }
+                    .input-div{
+                        display: flex;
+                        flex-direction:column;
+                        gap:4px;
+                        @media screen and (max-width:767px) {
+                            gap:0px;
+                            
+                        }
+
+                        label{
+                            color: #3F4F44;
+                            font-size:14px;
+                            font-family: "Poppins",sans-serif;
+                        
+                        }
+                        input{
+                            width:100%;
+                            outline:none;
+                            color:black;
+                            padding:7px 5px;
+                            border:none;
+                            border-bottom:1px solid black;
+                            background-color: transparent;
+                            @media screen and (max-width:767px) {
+                                padding:0px;
+                                
+                            }
+
+
+                           
+                        }
+                        .password-div{
+                            display:flex;
+                            flex-direction:row;
+                            align-items:center;
+                            position:relative;
+                            .icon{
+                                position:absolute;
+                                right:10px;
+                                color:black
+                            }
+                            input{
+                                width:100%;
+                                outline:none;
+                                color:black;
+                                padding:7px 5px;
+                                background-color: transparent;
+                                border:none;
+                                border-bottom:1px solid black;
+                                @media screen and (max-width:767px) {
+                                    padding:0px;
+                                    
+                                }
+
+                               
+                            }
+
+                        }
+                    }
+                    .password-memory-div{
+                        display:flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                       @media screen and (max-width:1200px){
+                        flex-direction:column;
+                        gap:10px;
+                       }
+                       @media screen and (max-width:767px) {
+                        
+                        
+                    }
+                        
+
+                        .checkbox-div{
+                            display:flex;
+                            flex-direction: row;
+                            align-items: center;
+                            gap:4px;
+
+                            input{
+                                border:1px solid black;
+                                color:black;
+                                margin:0;
+                                background-color: transparent;
+
+                            }
+                            p{
+                                font-size:13px;
+                                color:black;
+                                font-family: "Poppins",sans-serif;
+                                margin:0;
+                            }
+
+                        }
+                        p{
+                            color:black;
+                            font-size:13px;
+                            font-family: "Poppins",sans-serif;
+                            margin:0;
+                        }
+
+
+                    }
+                    .error-text{
+                        color:red;
+                        font-size:14px;
+                        text-align: center;
+                    }
+                    button{
+                        color:black;
+                        background-color: #D98324;
+                        border-radius:8px;
+                        padding:4px 30px;
+                        border:none;
+                        cursor:pointer;
+                        align-self:center;
+                       
+                    }
+
+
+                }
+
+            }
+                
+        }
+
+    }
+}
