@@ -174,7 +174,7 @@ const Dashboard = () => {
                     <div className='filter-outer-div'>
                         <div className="filter-section-div">
                             <p>Filters</p>
-                            <button className="clear-btn" onClick={clearFilter}><MdClear/></button>
+                            <button className="clear-btn" onClick={clearFilter}>Clear Filters</button>
                         </div>
                         <div className='filter-bar-div'>
                             {/* District Dropdown */}
