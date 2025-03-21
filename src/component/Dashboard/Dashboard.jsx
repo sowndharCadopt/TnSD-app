@@ -7,6 +7,7 @@ import { Modal, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from '../Header/Header';
 import data from "../selectOptions.json"
+
 import event from "../event.json"
 import { MdClear } from "react-icons/md";
 import "./Dashboard.scss"
@@ -37,27 +38,41 @@ const Dashboard = () => {
     useEffect(() => {
         const filterEvents = () => {
             let filtered = [...event];
-            
+        
             if (selectedDistrict) {
-                filtered = filtered.filter(e => e.District === selectedDistrict);
+                filtered = filtered.filter(e => 
+                    e.District?.toLowerCase().includes(selectedDistrict.toLowerCase())
+                );
             }
             if (selectedZone) {
-                filtered = filtered.filter(e => e.Zone === selectedZone);
+                filtered = filtered.filter(e => 
+                    e.Zone?.toLowerCase().includes(selectedZone.toLowerCase())
+                );
             }
             if (selectedUniversity) {
-                filtered = filtered.filter(e => e.University === selectedUniversity);
+                filtered = filtered.filter(e => 
+                    e.University?.toLowerCase().includes(selectedUniversity.toLowerCase())
+                );
             }
             if (selectedCollegeType) {
-                filtered = filtered.filter(e => e["College Type"] === selectedCollegeType);
+                filtered = filtered.filter(e => 
+                    e["College Type"]?.toLowerCase().includes(selectedCollegeType.toLowerCase())
+                );
             }
             if (selectedCollege) {
-                filtered = filtered.filter(e => e["College Name"] === selectedCollege);
+                filtered = filtered.filter(e => 
+                    e["College Name"]?.toLowerCase().includes(selectedCollege.toLowerCase())
+                );
             }
             if (selectedCourse) {
-                filtered = filtered.filter(e => e["Course Name"] === selectedCourse);
+                filtered = filtered.filter(e => 
+                    e["Course Name"]?.toLowerCase().includes(selectedCourse.toLowerCase())
+                );
             }
-            
+        
             setFilteredEvents(filtered);
+    
+        
         };
 
         filterEvents();
