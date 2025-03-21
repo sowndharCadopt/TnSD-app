@@ -275,20 +275,40 @@ const Dashboard = () => {
                         </div>
                         </div>
                     <div  className='dashboard-bg'>
+                        {/* <Calendar
+                            localizer={localizer}
+                            events={filteredEvents}
+                            startAccessor={(event) => new Date(event.start)}
+                            endAccessor={(event) => new Date(event.end)}
+                            style={{ height: 500 }}
+                            // onSelectEvent={handleSelectEvent}
+                            onSelectEvent={handleSelectDate}
+                            onSelectSlot={handleSelectDate}
+                            selectable
+                            view={view}
+                            // onView={(newView) => setView(newView)}
+                            date={date}
+                            views={["month","week","day"]}
+                            onNavigate={(newDate) => setDate(newDate)}
+                        /> */}
                         <Calendar
                             localizer={localizer}
                             events={filteredEvents}
                             startAccessor={(event) => new Date(event.start)}
                             endAccessor={(event) => new Date(event.end)}
                             style={{ height: 500 }}
-                            onSelectEvent={handleSelectEvent}
-                            onSelectSlot={handleSelectDate}
                             selectable
                             view={view}
-                            onView={(newView) => setView(newView)}
                             date={date}
-                            views={["month","week","day"]}
+                            views={["month", "week", "day"]}
                             onNavigate={(newDate) => setDate(newDate)}
+                            onSelectEvent={handleSelectDate}
+                            onSelectSlot={handleSelectDate}
+                            components={{
+                            eventWrapper: ({ children, event }) => (
+                                <div onClick={() => handleSelectDate(event)}>{children}</div>
+                            ),
+                            }}
                         />
 
                     
