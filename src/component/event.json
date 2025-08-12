@@ -6851,6 +6851,19 @@
     "start": "2025-05-07T09:00:00",
     "end": "2025-05-07T18:00:00",
     "Trainer":"Dhanasundaram"
+  },
+  {
+    "id":528,
+    "title":"PROE CREO Training",
+    "District":"Chennai",
+    "Zone":"4",
+    "University":"Anna University",
+    "College Type":"Engineering",
+    "College Name":"Madras Institute Of Technology",
+    "Course Name":"Proe Creo",
+    "start": "2025-08-12T09:00:00",
+    "end": "2025-08-12T18:00:00",
+    "Trainer":"Dhanasundaram"
   }
 
 
