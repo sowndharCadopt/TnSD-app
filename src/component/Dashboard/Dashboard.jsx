@@ -9,9 +9,7 @@ import Header from '../Header/Header';
 import data from "../selectOptions.json"
 
 import event from "../event.json"
-import { MdClear } from "react-icons/md";
 import "./Dashboard.scss"
-import { set } from 'date-fns';
 
 
 const localizer = momentLocalizer(moment);
